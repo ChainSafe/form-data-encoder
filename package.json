@@ -23,8 +23,6 @@
   "scripts": {
     "eslint": "eslint src/**/*.ts",
     "staged": "lint-staged",
-    "coverage": "c8 npm test",
-    "ci": "c8 npm test && c8 report --reporter=json",
     "build:types": "tsc --project tsconfig.d.ts.json",
     "build": "tsc && npm run build:types",
     "test": "ava --fail-fast",
