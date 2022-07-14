@@ -1,9 +1,8 @@
 {
-  "type": "module",
-  "name": "form-data-encoder",
-  "version": "2.0.1",
+  "name": "@chainsafe/form-data-encoder",
+  "version": "1.0.0",
   "description": "Encode FormData content into the multipart/form-data format",
-  "repository": "octet-stream/form-data-encoder",
+  "repository": "https://github.com/chainsafe/form-data-encoder",
   "sideEffects": false,
   "engines": {
     "node": ">= 14.17"
